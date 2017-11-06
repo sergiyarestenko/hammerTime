@@ -10,39 +10,70 @@
 
     <body >
 
-      <div class="container test">
+      <div class="container">
         <header class="header">
-          
+            <img src="./img/header_bg.png" alt="Fishki test">
+            <div class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </div>
         </header>
-          <nav class="nav">
-              <ul>
-                  <li><a href=".#">Home</a></li>
-                  <li><a href=".#">About</a></li>
-                  <li> <span class = logo></span></li>
-                  <li><span>Category</span>
-                    <ul>
-                        <li><a href=".#">Category1</a></li>
-                        <li><a href=".#">Category2</a></li>
-                        <li><a href=".#">Category3</a></li>
-                    </ul>
+          <nav class="nav" id = 'nav'>
 
-                  </li>
-                  <li><a href=".#">Contact</a></li>
-              </ul>
+              <div >
+                  <div class="nav-inner">
+                      <a class="active" href=".#">Home</a>
+                  </div>
+                  <div class="nav-inner">
+                      <a href=".#">About</a>
+                  </div>
+              </div>
+              <div class="nav-inner logo">
+                    <span></span>
+
+
+              </div>
+              <div>
+                  <div class="nav-inner parent">
+                      <a href="#" class="">Category</a>
+                      <ul>
+                          <li><a href=".#">Category1</a></li>
+                          <li><a href=".#">Category2</a></li>
+                          <li><a href=".#">Category3</a></li>
+                      </ul>
+
+
+                  </div>
+                  <div class="nav-inner">
+                      <a href=".#">Contact</a>
+                  </div>
+              </div>
+
+
+
+        <span class="close" id="close"></span>
+
           </nav>
+<div class="welcome-handler">
+    <h1>Hello, Welcome to my Blog!</h1>
+</div>
 
-
-            <div id="app">
+            <div class = 'item' id="app">
 
 
 
 
             </div>
             <div class="button-handler">
-                  <button onclick="loadNews()" value="56" >jhgkjhg</button>
-            </div>
+                <label> <input type="button" onclick="loadNews()"> Load More</label>
 
+
+            </div>
+          <footer class="footer">
+              <p>Copyrights (c) <a href=".#">Fikristudio</a> 2014</p>
+
+          </footer>
       </div>
+
 
       <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="./js/app.js"></script>
