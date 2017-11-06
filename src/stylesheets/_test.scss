@@ -1,0 +1,13 @@
+.test{
+  border:1px solid red;
+  box-sizing: border-box;
+  &1{
+    border:1px solid forestgreen;
+  }
+  &2{
+    border:1px solid teal;
+  }
+  &3{
+    border:1px solid lawngreen;
+  }
+}
